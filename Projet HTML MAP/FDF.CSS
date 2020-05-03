@@ -1,0 +1,350 @@
+div.banniere{
+	background: black;
+	height:100px;
+}
+div.decon{
+	float:right;
+	border:1px solid yellow;
+}
+a{
+	font-family: Arial;
+}
+a.Titre{
+	color:white;
+	font-family:arial;
+	font-size: 80px;
+	font-weight: bold;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+img.logo{
+	 margin:0 10px 0 10px;
+	 margin-top: 20px;
+}
+img{
+	width:60px;
+	height: 60px;
+}
+img.surface{
+	width:1000px;
+	height: 500px;
+}
+img.ballon{
+	width:200px;
+	height: 200px;
+}
+img.nbr{
+	width:750px;
+	height: 500px;
+}
+img.chrono{
+	width:300px;
+	height: 300px;
+}
+img.arbitre{
+	width:800px;
+	height: 550px;
+}
+img.faute{
+	width:800px;
+	height: 550px;
+}
+#hora{
+    width:950px;
+    margin: auto;
+    justify-content: center;
+}
+img.horaires{
+	width:900px;
+	height: 500px;
+	position: 	absolute;
+	top: 330px;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url("Images/futsal1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px 150px;*/
+	background-size: cover;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+}
+/*-------------------------------menu deroulant-----------------------------*/
+nav{
+	width:100%;
+	background-color: #424558;
+	background-size: 100%;
+}
+
+nav > ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav >ul::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+nav > ul > li{
+	float:left;
+	position:relative;
+}
+
+nav >ul >li >a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav >ul >li:hover a{
+	padding: 15px 30px 20px 30px;
+} 
+
+nav li{
+	list-style-type:none;
+}
+.submenu{
+	display:none;
+}
+
+nav a{
+	display:inline-block;
+	text-decoration:none;
+}
+
+nav li:hover .submenu{
+	display:inline-block;
+	position: absolute;
+	top:100%;
+	left:0px;
+	padding:0px;
+	z-index:1000;
+}
+.submenu li{
+	border-bottom:1px solid #CCC;
+}
+
+.submenu li a{
+	padding:15px 30px;
+	font-size:20px;
+	color:#222538;
+	width:200px;
+}
+.menu-accueil:hover{
+	border-top: 5px solid #e44848;
+	background-color:RGBa(225,77,38,0,15);
+}
+.menu-inscription:hover{
+	border-top: 5px solid #408600;
+	background-color:RGBa(64,134,0,0,15);
+}
+.menu-connexion:hover{
+	border-top: 5px solid #72a8ff;
+	background-color:RGBa(114, 168, 255,0,15);
+}
+.menu-deconnexion:hover{
+	border-top: 5px solid #72a8ff;
+	background-color:RGBa(1, 168, 255,0,15);
+}
+.menu-accueil .submenu{
+	background-color:RGBa(225,77,38);
+}
+.menu-inscription .submenu{
+	background-color:RGBa(64,134,0);
+}
+.menu-connexion .submenu{
+	background-color:RGBa(114, 168, 255);
+}
+.menu-connexion .submenu{
+	background-color:RGBa(114, 168, 255);
+}
+.menu-deconnexion .submenu{
+	background-color:RGBa(1, 168, 255);
+}
+.submenu li:hover a{
+	color:#FFF;
+	font-weight: bold; 
+}
+.menu-accueil .submenu li:hover{
+	background-color:RGBa(225,77,60);
+}
+/*-------------------------------/menu deroulant-----------------------------*/
+p{
+	font-size:40px;
+	font-family: arial;
+	color:#d3d000;
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+h1{
+	font-size:80px;
+	font-family: arial;
+	color:#d3d000;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.1em
+}
+p.description{
+	font-size:30px;
+	font-family: arial;
+	color:#d3d000;
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+h2{
+	font-size:60px;
+	font-family: arial;
+	color:#50c100;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.1em
+}
+li.arbitre{
+	font-size:30px;
+	font-family: arial;
+	color:#d3d000;
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+footer{
+	background:#ccc;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:10px;
+	height:70px;
+	display: flex;
+	justify-content: center;
+	background-color: #45a1ff;
+	color: #fff;
+}
+footer.foot{
+	background:#ccc;
+	position:relative;
+	bottom:0;
+	width:100%;
+	padding-top:10px;
+	height:70px;
+	display: flex;
+	justify-content: center;
+	background-color: #45a1ff;
+	color: #fff;
+}
+footer.horaire{
+	background:#ccc;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:10px;
+	height:70px;
+	display: flex;
+	justify-content: center;
+	background-color: #45a1ff;
+	color: #fff;
+}
+td{
+	border:1px solid yellow;
+	color:white;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+}
+td.jour{
+	border:1px solid yellow;
+	color:white;
+	width: 400px;
+	height: 50px;
+	text-align: ;
+}
+a.heure{
+	position:relative;
+	bottom:28px;
+}
+td.grand{
+	border:5px solid yellow;
+	color:white;
+	width: 70%;
+	text-align: center;
+}
+td.petit{
+	border:5px solid yellow;
+	color:white;
+	width: 30%;
+	text-align: center;
+}
+/*--------------------------------------------------------------------------*/
+#container{
+    width:900px;
+    margin:0 auto;
+    justify-content: center;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+legend{
+	font-family: arial;
+}
+legend.error{
+	font-family: arial;
+	color:red;
+}
+p.tarif{
+	font-family:arial;
+	font-size:20px;
+	color:white;
+	text-align:left;
+}
+h3{
+	font-family:arial;
+	font-size:25px;
+	color:white;
+	text-align:left;
+}
+
+
